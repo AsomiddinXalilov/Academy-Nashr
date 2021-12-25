@@ -1,0 +1,84 @@
+.wrapper {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 210px;
+    padding: 0 10px;
+
+    &__line {
+        width: 80px;
+        height: 3px;
+        background-color: #FF7500;
+        margin-bottom: 24px;
+    }
+
+    &__heading {
+        width: 435px;
+        font-family: "Roboto Condensed", "Arial", sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 86px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 72px;
+    }
+
+    &__list-item, &__list-item-two, &__list-item-three {
+        width: 340px;
+        margin: 10px;
+    }
+    
+    &__list-item::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-image: url("../../img/feature-icon.svg");
+        margin-bottom: 32px;
+    }
+
+    &__list-item-two::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-image: url("../../img/feature-icon\ \(1\).svg");
+        margin-bottom: 32px;
+    }
+
+    &__list-item-three::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-image: url("../../img/feature-icon\ \(2\).svg");
+        margin-bottom: 32px;
+    }
+
+    &__item-head {
+        font-family: "Roboto Condensed", "Arial", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        width: 314px;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+}

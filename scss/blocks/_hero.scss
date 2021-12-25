@@ -1,0 +1,69 @@
+.section {
+    background-color: #252420;
+}
+
+.hero {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+    
+    &__container {
+        padding-top: 43px;
+    }
+    
+    &__box {
+        width: 410px;
+        padding: 80px 0;
+    }
+
+    &__line {
+        width: 80px;
+        height: 3px;
+        background-color: #FF7500;
+        margin-bottom: 43px;
+    }
+
+    &__heading {
+        color: #fff;
+        font-family: "Roboto Condensed", "Arial", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+
+    &__text {
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #fff;
+        padding-top: 24px;
+        padding-bottom: 44px;
+    }
+
+    &__link {
+        color: #fff;
+        padding: 12px 24px;
+        background-color: #FF7500;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__link:hover {
+        color: #FF7500;
+        background-color: #fff;
+    }
+
+    &__img {
+        position: absolute;
+        top: 100px;
+        right: 0;
+    }
+}

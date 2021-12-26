@@ -27,6 +27,14 @@
         margin-right: 16px;
     }
 
+    &__head-img {
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__head-img:hover {
+        margin-bottom: 15px;
+    }
+
     &__foot {
         max-width: 1120px;
         padding: 0 10px;
